@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace MovimentosManuais.ApplicationCore.Entity
 {
-    public class MovimentoManual
+    public class Movimento_Manual
     {
-        public MovimentoManual()
+        public Movimento_Manual()
         {
                 
         }

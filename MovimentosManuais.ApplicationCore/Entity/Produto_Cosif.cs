@@ -6,16 +6,17 @@ using System.Threading.Tasks;
 
 namespace MovimentosManuais.ApplicationCore.Entity
 {
-    public class Produto
+    public class Produto_Cosif
     {
-        public Produto()
+        public Produto_Cosif()
         {
-                
+            
         }
 
         public string COD_PRODUTO { get; set; }
-        public string DES_PRODUTO { get; set; }
+        public string COD_COSIF { get; set; }
+        public string COD_CLASSIFICACAO { get; set; }
         public string STA_STATUS { get; set; }
-        public ICollection<Produto_Cosif> Produto_Cosifs { get; set; }
+        public ICollection<Movimento_Manual> Contatos { get; set; }
     }
 }
